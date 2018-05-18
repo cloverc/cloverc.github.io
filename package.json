@@ -1,0 +1,19 @@
+{
+  "name": "github-website",
+  "version": "1.0.0",
+  "description": "my github portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss   css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Clover Chapman",
+  "license": "ISC",
+  "dependencies": {
+    "simple-icons": "^1.5.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.4"
+  }
+}
