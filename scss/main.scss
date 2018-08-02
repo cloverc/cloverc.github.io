@@ -18,7 +18,8 @@ li {
 
 a svg #github,
 a svg #linkedin,
-a svg #twitter
+a svg #twitter,
+a svg #stackoverflow
 {
 	transition: 200ms;
 	transition-timing-function: ease-in-out;
@@ -29,7 +30,8 @@ a svg #twitter
 
 a svg:hover #github,
 a svg:hover #linkedin,
-a svg:hover #twitter
+a svg:hover #twitter,
+a svg:hover #stackoverflow
 { 
 	fill: #4fb59b;
 }
