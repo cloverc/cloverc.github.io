@@ -13,7 +13,7 @@
     "simple-icons": "^1.5.0"
   },
   "devDependencies": {
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.17.4"
   }
 }
